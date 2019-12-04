@@ -208,6 +208,7 @@ class ViewController: UIViewController {
         next.setTitle("Next", for: .normal)
         next.setTitleColor(.white, for: .normal)
         next.backgroundColor = .some(.purple)
+        next.layer.cornerRadius = 5
         next.translatesAutoresizingMaskIntoConstraints = false
         return next
     }()
