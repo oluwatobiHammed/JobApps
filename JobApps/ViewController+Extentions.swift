@@ -55,13 +55,15 @@ extension ViewController: FlexibleSteppedProgressBarDelegate {
            progressBar.lastStateCenterColor = .gray
            progressBar.selectedBackgoundColor = .systemOrange
            progressBar.selectedOuterCircleStrokeColor = backgroundColor
-           progressBar.selectedOuterCircleLineWidth = 10
+           progressBar.selectedOuterCircleLineWidth = 15
            progressBar.backgroundShapeColor = .systemGray3
            progressBar.lastStateOuterCircleStrokeColor = backgroundColor
            progressBar.currentSelectedCenterColor = .systemOrange
            progressBar.stepTextColor = textColorHere
            progressBar.currentSelectedTextColor = .black
-           
+           progressBar.viewBackgroundColor = .clear
+        
+           //progressBar.previousSelectedTextColor = .black
            
            progressBar.currentIndex = 0
            
